@@ -1,0 +1,213 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+    --font-sans: 'Roboto', sans-serif;
+    --font-serif: 'Noto Serif', serif;
+    --font-mono: 'Roboto Mono', monospace;
+    --color-primary: oklch(49.34% 0.1857 27.49);
+    --color-border: oklch(86.35% 0 0);
+}
+
+@layer base {
+    :root {
+        --wpforms-field-border-radius: 0px !important;
+        --wpforms-field-border-style: solid;
+        --wpforms-field-border-size: 0.7px !important;
+        --wpforms-field-background-color: #ffffff;
+        --wpforms-field-border-color: #898989 !important;
+        --wpforms-field-border-color-spare: #00000040;
+        --wpforms-field-text-color: #000000b3;
+        --wpforms-field-menu-color: #ffffff;
+        --wpforms-label-color: #000000d9;
+        --wpforms-label-sublabel-color: #0000008c;
+        --wpforms-label-error-color: #d63637;
+        --wpforms-button-border-radius: 0 !important;
+        --wpforms-button-border-style: none;
+        --wpforms-button-border-size: 1px;
+        --wpforms-button-background-color: #b31b1b !important;
+        --wpforms-button-border-color: #b31b1b !important;
+        --wpforms-button-text-color: #ffffff;
+        --wpforms-page-break-color: #b31b1b !important;
+        --wpforms-background-image: none;
+        --wpforms-background-position: center center;
+        --wpforms-background-repeat: no-repeat;
+        --wpforms-background-size: cover;
+        --wpforms-background-width: 100px;
+        --wpforms-background-height: 100px;
+        --wpforms-background-color: #00000000;
+        --wpforms-background-url: none;
+        --wpforms-container-padding: 0px;
+        --wpforms-container-border-style: none;
+        --wpforms-container-border-width: 1px;
+        --wpforms-container-border-color: #000000;
+        --wpforms-container-border-radius: 3px;
+        --wpforms-field-size-input-height: 43px;
+        --wpforms-field-size-input-spacing: 10px !important;
+        --wpforms-field-size-font-size: 1rem !important;
+        --wpforms-field-size-line-height: 19px;
+        --wpforms-field-size-padding-h: 14px;
+        --wpforms-field-size-checkbox-size: 1rem !important;
+        --wpforms-field-size-sublabel-spacing: 5px;
+        --wpforms-field-size-icon-size: 1;
+        --wpforms-label-size-font-size: 1rem !important;
+        --wpforms-label-size-line-height: 19px;
+        --wpforms-label-size-sublabel-font-size: 14px;
+        --wpforms-label-size-sublabel-line-height: 17px;
+        --wpforms-button-size-font-size: inherit !important;
+        --wpforms-button-size-height: auto !important;
+        --wpforms-button-size-padding-h: auto !important;
+        --wpforms-button-size-margin-top: 10px;
+        --wpforms-container-shadow-size-box-shadow: none;
+
+
+        /* Swiper */
+        --swiper-pagination-color: var(--color-primary);
+
+    }
+    *{
+        @apply border-border scroll-smooth!;
+    }
+
+    a {
+        @apply text-primary hover:underline;
+    }
+
+    h1,.h1 {
+        @apply min-2xl:text-4xl xl:text-3xl text-2xl font-semibold md:mb-4 mb-2;
+    }
+
+    h2,.h2 {
+        @apply min-2xl:text-4xl xl:text-3xl text-2xl font-semibold md:mb-4 mb-2;
+    }
+
+    h2.heading{
+        @apply md:mb-8 mb-6;
+    }
+
+    h3 {
+        @apply min-2xl:text-xl text-xl font-semibold md:mb-3 mb-2;
+    }
+
+    h4 {
+        @apply min-2xl:text-xl text-lg font-semibold md:mb-2 mb-1;
+    }
+
+    ul {
+        @apply list-disc pl-4 mb-2;
+    }
+
+    button {
+        @apply cursor-pointer
+    }
+
+    p {
+        @apply lg:mb-4 mb-3;
+    }
+}
+
+@utility btn-primary {
+    @apply font-normal block px-5 w-fit hover:no-underline py-2.5 bg-primary text-white rounded-none hover:bg-primary/80 transition focus:ring-2 focus:ring-primary focus:ring-offset-2;
+}
+
+@utility btn-outline {
+    @apply font-normal block px-5 w-fit hover:no-underline py-2.5  text-primary hover:text-white border border-primary rounded-none hover:bg-primary transition focus:ring-2 focus:ring-primary focus:ring-offset-2;
+}
+
+@utility btn-lg {
+    @apply text-lg px-8;
+}
+
+@layer components {
+
+    figcaption {
+        @apply sr-only;
+    }
+
+    section, .section-padding {
+        @apply 2xl:p-20 xl:px-14 xl:py-10 px-5 py-10;
+    }
+
+    .no-spacing {
+        @apply !m-0 !p-0;
+    }
+
+    .image-contain {
+        @apply size-full object-contain;
+    }
+
+    .image-cover {
+        @apply size-full object-cover;
+    }
+
+    .wpforms-field-label {
+        @apply !mb-1 !font-normal !text-sm;
+    }
+
+    .wpforms-field {
+        @apply !mb-0 md:!py-2.5 !py-1.5 !font-normal !text-sm;
+    }
+
+    .wpforms-field-layout {
+        @apply !py-0;
+    }
+
+
+    .wpforms-submit {
+        line-height: inherit !important;
+        @apply font-normal! h-auto! px-5! text-base! py-2.5! rounded-none;
+
+    }
+
+    .wpforms-container,
+    .wpforms-container-full {
+        @apply !my-0;
+    }
+
+
+    /* .wpforms-field-row .wpforms-field-row-block:first-child, .wpforms-layout-row .wpforms-layout-column-50:first-child {
+        @apply md:!pr-2 !pr-1;
+    }
+    .wpforms-field-row .wpforms-field-row-block:last-child, .wpforms-layout-row .wpforms-layout-column-50:last-child {
+        @apply md:!pl-2 !pl-1;
+    } */
+
+    .wpforms-field-required{
+        @apply md:!px-3 !px-2;
+    }
+
+    .wpforms-smart-phone-field{
+        @apply !pl-[52px]
+    }
+
+    /* Flowbite Modal */
+    .fixed.inset-0.z-40{
+        @apply bg-black/30!;
+    }
+
+    .swiper-btn{
+        @apply bg-primary hover:bg-primary/70 transition-all focus:ring-2 ring-offset-2 focus:ring-border rounded-full md:size-10 size-7 flex items-center text-white justify-center cursor-pointer select-none shrink-0;
+    }
+    .swiper-btn.swiper-button-disabled{
+        @apply bg-gray-200 text-gray-400 ring-transparent cursor-auto;
+    }
+
+    .swiper-btn svg{
+        @apply size-7;
+    }
+
+    .swiper-slide{
+        @apply select-none;
+    }
+
+    .content-wrapper{
+        @apply max-w-4xl mx-auto;
+    }
+
+    .form-message-dissallowed {
+        @apply bg-red-50! border-primary! border-2! xl:p-6! p-5!;
+    }
+
+}
