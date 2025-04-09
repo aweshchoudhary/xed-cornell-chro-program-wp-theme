@@ -38,7 +38,7 @@
                 ?>
             </ul>
         </div>
-        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 flex-1">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-3 flex-1">
             <?php
             $addresses = get_field("addresses", "option");
             if ($addresses && count($addresses)) :

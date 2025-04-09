@@ -672,124 +672,124 @@ get_header(); ?>
                 <div class="testimonial-sliders swiper flex-1 shrink-0">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> The learning experience was enriching, with an inside out approach & the interactive sessions with the faculty & the fellow participants further enhanced the learning </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Savitha Krishnamoorthy</h4>
-                                <p><strong class="font-medium">Deputy General Manager, The Great Eastern Shipping Co. Ltd</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Deputy General Manager, The Great Eastern Shipping Co. Ltd</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> The faculty, and the program team was able to pull together a bunch of really great people to form the cohort. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Eshwari Shunmuganathan</h4>
-                                <p><strong class="font-medium">Director, Business Operations and Strategy, Yahoo</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Director, Business Operations and Strategy, Yahoo</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> Fantastic, took special care to ensure that the diverse group understood every concept. Its really tough to tech virtual classes yet make it interactive...the faculty did this with ease! </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Tiyash Mazumder Bagchi</h4>
-                                <p><strong class="font-medium">Head-HR Global Corporate Functions &amp; HR Strategy, Dr Reddy's Laboratories Limited</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Head-HR Global Corporate Functions &amp; HR Strategy, Dr Reddy's Laboratories Limited</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> Line up of faculties are great, with eye and mind opening content on the discussion. It made us engaged and not wanting to miss a session. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Marizca M. Tambunan</h4>
-                                <p><strong class="font-medium">Director, SHL Indonesia</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Director, SHL Indonesia</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em>The exchange of ideas, the professor's ability to connect with the audience inspite of it being an online session. The break out room discussions and the peer connect sessions. There were also theories re learning that happened and industry examples to connect with them, helped</em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Bindu Jacob</h4>
-                                <p><strong class="font-medium">SVP-HR &amp; Administration, UFO Moviez</strong></p>
+                                <p class="mb-0"><strong class="font-medium">SVP-HR &amp; Administration, UFO Moviez</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em>The program gives a refreshing break from day-to-day HR activities to sharpen the axe. It helps in reflections over our actions of past and realize what could have been done differently</em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Mukund Madhav</h4>
-                                <p><strong class="font-medium">Head HR BACL, Bajaj Auto Ltd</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Head HR BACL, Bajaj Auto Ltd</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> Quality of Instruction: Knowledgeable, engaging, and supportive Professors. Curriculum: Well-structured, comprehensive. Peer Interaction: Opportunities to collaborate and build relationships with fellow students. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Chanchal Chandiok</h4>
-                                <p><strong class="font-medium">HR Director, NEC Software Solutions India</strong></p>
+                                <p class="mb-0"><strong class="font-medium">HR Director, NEC Software Solutions India</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> It's been a very insightful journey all through, varied dimensions covered brilliantly with relevant case studies and very interactive sessions with faculty and peers </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Manisha Sharma Prasad</h4>
-                                <p><strong class="font-medium">SVP &amp; Head Human Resources, CRIF India &amp; South Asia</strong></p>
+                                <p class="mb-0"><strong class="font-medium">SVP &amp; Head Human Resources, CRIF India &amp; South Asia</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> Excellent faculty! Their knowledge dissemination and connection with the whole cohort was fantastic. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Mainak Chaki</h4>
-                                <p><strong class="font-medium">Group Head Human Resources, KK Birla Group</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Group Head Human Resources, KK Birla Group</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> It was good to understand more evolved HR concepts and case studies prevalent across markets. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Shipra Gairola</h4>
-                                <p><strong class="font-medium">SVP &amp; Head Human Resources, CRIF India &amp; South Asia</strong></p>
+                                <p class="mb-0"><strong class="font-medium">SVP &amp; Head Human Resources, CRIF India &amp; South Asia</strong></p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group p-5 border ">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-14 text-primary" viewBox="0 0 24 24">
+                            <div class="group p-4 border ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:size-12 size-10 text-primary" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
                                 </svg>
                                 <blockquote class="xl:text-xl md:text-lg"><em> The most valuable aspect of the program was earning a certificate from Cornell University and learning from their professors. Additionally it has significantly enhanced my work experience. </em></blockquote>
                                 <br>
                                 <h4 class="text-primary mb-1">Mirna Mogharbel</h4>
-                                <p><strong class="font-medium">Head of HR &amp; Admin, AL Zorah Development Company</strong></p>
+                                <p class="mb-0"><strong class="font-medium">Head of HR &amp; Admin, AL Zorah Development Company</strong></p>
                             </div>
                         </div>
                     </div>
@@ -933,7 +933,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 122; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -965,7 +965,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 121; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -999,7 +999,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 117; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -1031,7 +1031,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 120; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -1063,7 +1063,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 119; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -1095,7 +1095,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 118; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -1119,7 +1119,7 @@ get_header(); ?>
     <div id="modal-7" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-4xl max-h-full">
             <div class="relative bg-white shadow-sm">
-                <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="modal-8">
+                <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="modal-7">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
@@ -1127,7 +1127,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 116; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
@@ -1151,7 +1151,7 @@ get_header(); ?>
     <div id="modal-8" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-4xl max-h-full">
             <div class="relative bg-white shadow-sm">
-                <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="modal-1">
+                <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="modal-8">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
@@ -1159,7 +1159,7 @@ get_header(); ?>
                 </button>
                 <div class="flex px-6 py-10 gap-6">
                     <div class="w-1/3">
-                        <figure class="aspect-square size-full overflow-hidden select-none">
+                        <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 124; ?>
                             <?php echo wp_get_attachment_image($image_id, "large", false, array(
                                 "loading" => "lazy",
