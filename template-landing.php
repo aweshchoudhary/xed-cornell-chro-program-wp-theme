@@ -412,11 +412,19 @@ get_header(); ?>
                 </div>
                 <div class="w-full">
                     <h3 class="text-primary mb-5 text-center">Companies</h3>
-                    <figure class="overflow-hidden w-full !m-0">
-                        <? $image_id = 132 ?>
+                    <figure class="overflow-hidden companies-logo md:block hidden w-full !m-0">
+                        <? $image_id = 429 ?>
                         <?= wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
-                            "class" => "image-contain",
+                        ]); ?>
+                        <figcaption class="sr-only">
+                            <?= wp_get_attachment_caption($image_id); ?>
+                        </figcaption>
+                    </figure>
+                    <figure class="overflow-hidden companies-logo md:hidden w-full !m-0">
+                        <? $image_id = 431 ?>
+                        <?= wp_get_attachment_image($image_id, "large", false, [
+                            "loading" => "lazy",
                         ]); ?>
                         <figcaption class="sr-only">
                             <?= wp_get_attachment_caption($image_id); ?>
@@ -915,7 +923,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">William J. Conaty Professor of Strategic Human Resources</p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Bradford S. Bell is the William J. Conaty Professor in Strategic Human Resources and Director of the Center for Advanced Human Resource Studies. He received his B.A. in Psychology from the University of Maryland at College Park and his M.A. and Ph.D. in Industrial and Organizational Psychology from Michigan State University. He worked in the management and organization development department of First USA Bank/Banc One and has worked as an HR consultant for multiple private and public firms. Dr. Bell is a fellow of the Society for Industrial and Organizational Psychology and American Psychological Association.</p>
+                        <p class="mb-0">Bradford S. Bell is the William J. Conaty Professor in Strategic Human Resources and Director of the Center for Advanced Human Resource Studies. He received his B.A. in Psychology from the University of Maryland at College Park and his M.A. and Ph.D. in Industrial and Organizational Psychology from Michigan State University. He worked in the management and organization development department of First USA Bank/Banc One and has worked as an HR consultant for multiple private and public firms. Dr. Bell is a fellow of the Society for Industrial and Organizational Psychology and American Psychological Association.</p>
 
                     </div>
                 </div>
@@ -947,7 +955,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Professor, Human Resource Studies</p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p> John Hausknecht is professor of human resource studies at Cornell University’s ILR School. His teaching, research, and consulting focuses on HR analytics and staffing-related topics including employee selection and turnover. Professor Hausknecht recently served as the academic director for Cornell’s ILR Executive Education and currently leads the HR analytics working group series for Cornell’s Center for Advanced HR Studies. </p>
+                        <p class="mb-0"> John Hausknecht is professor of human resource studies at Cornell University’s ILR School. His teaching, research, and consulting focuses on HR analytics and staffing-related topics including employee selection and turnover. Professor Hausknecht recently served as the academic director for Cornell’s ILR Executive Education and currently leads the HR analytics working group series for Cornell’s Center for Advanced HR Studies. </p>
 
                     </div>
                 </div>
@@ -979,7 +987,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Joseph R. Rich ’80 Professor, Human Resource Studies and Academic Director, Institute for Compensation Studies </p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p> M. Diane Burton is a professor in the ILR School at Cornell University. Her primary appointment is in human resource studies with courtesy appointments in organizational behavior and sociology. Prior to joining the Cornell faculty in 2009, she was a faculty member at the MIT Sloan School of Management. She earned her Ph.D. in sociology at Stanford University and served as a lecturer and researcher in organizational behavior and human resources management at the Stanford Graduate School of Business.
+                        <p class="mb-0"> M. Diane Burton is a professor in the ILR School at Cornell University. Her primary appointment is in human resource studies with courtesy appointments in organizational behavior and sociology. Prior to joining the Cornell faculty in 2009, she was a faculty member at the MIT Sloan School of Management. She earned her Ph.D. in sociology at Stanford University and served as a lecturer and researcher in organizational behavior and human resources management at the Stanford Graduate School of Business.
                             Hear from Adam Seth Litwin, Associate Professor
                         </p>
 
@@ -1013,7 +1021,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Associate Professor, Human Resource Studies </p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Tae-Youn Park (Ph.D., University of Minnesota) is the Associate Professor of Human Resource Studies in the ILR School, Cornell University. His work has been published in many influential journals across disciplines. He currently serves on the editorial board of Academy of Management Journal, Personnel Psychology, and Compensation and Benefit Review. Before joining the ILR School, Tae-Youn was a Brownlee O. Currey Jr. Dean’s Faculty Fellow, assistant professor of Management in the Owen Graduate School of Management.</p>
+                        <p class="mb-0">Tae-Youn Park (Ph.D., University of Minnesota) is the Associate Professor of Human Resource Studies in the ILR School, Cornell University. His work has been published in many influential journals across disciplines. He currently serves on the editorial board of Academy of Management Journal, Personnel Psychology, and Compensation and Benefit Review. Before joining the ILR School, Tae-Youn was a Brownlee O. Currey Jr. Dean’s Faculty Fellow, assistant professor of Management in the Owen Graduate School of Management.</p>
 
                     </div>
                 </div>
@@ -1045,7 +1053,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Associate Professor </p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Adam Seth Litwin is Associate Professor of Industrial and Labor Relations at Cornell’s ILR School and serves as an associate editor at its flagship journal, the ILR Review. Litwin has published a mix of empirical and conceptual studies intersecting the areas of labor relations and technological change, in both industrial relations and medical journals. Litwin joined Cornell’s ILR faculty in the fall of 2014 after serving as a standing faculty member at Johns Hopkins University, where he held appointments in the Carey Business School and the School of Medicine. </p>
+                        <p class="mb-0">Adam Seth Litwin is Associate Professor of Industrial and Labor Relations at Cornell’s ILR School and serves as an associate editor at its flagship journal, the ILR Review. Litwin has published a mix of empirical and conceptual studies intersecting the areas of labor relations and technological change, in both industrial relations and medical journals. Litwin joined Cornell’s ILR faculty in the fall of 2014 after serving as a standing faculty member at Johns Hopkins University, where he held appointments in the Carey Business School and the School of Medicine. </p>
 
                     </div>
                 </div>
@@ -1077,7 +1085,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Associate Professor </p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Ben A. Rissing studies employment-relevant decisions in organizations, including businesses, government, and academic institutions. He earned his doctorate in management from the Massachusetts Institute of Technology (MIT) Sloan School of Management; master’s degrees in management science and engineering management from MIT and Duke University, respectively; and a bachelor’s degree in mechanical engineering from the University of Virginia. Before joining Cornell University, Ben was the Hugh W. Pearson Visiting Professor of Commerce, Organizations and Entrepreneurship at Brown University. </p>
+                        <p class="mb-0">Ben A. Rissing studies employment-relevant decisions in organizations, including businesses, government, and academic institutions. He earned his doctorate in management from the Massachusetts Institute of Technology (MIT) Sloan School of Management; master’s degrees in management science and engineering management from MIT and Duke University, respectively; and a bachelor’s degree in mechanical engineering from the University of Virginia. Before joining Cornell University, Ben was the Hugh W. Pearson Visiting Professor of Commerce, Organizations and Entrepreneurship at Brown University. </p>
 
                     </div>
                 </div>
@@ -1109,7 +1117,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Associate Director</p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Lisa Csencsits, Associate Director for Executive Education at Cornell University, ILR, is responsible for the design, development and delivery of customized learning and capability development programs. Lisa holds a B.A. In Psychology from Adelphi University and a M.A. in Industrial/Organizational Psychology from Hofstra University. Ms. Csencsits, as an Organizational Development Practitioner, leverages her experience working with large privately and publicly held companies, as well as her research and educational expertise to provide programs grounded in theory with practical solutions to enhance participant learning and professional development. </p>
+                        <p class="mb-0">Lisa Csencsits, Associate Director for Executive Education at Cornell University, ILR, is responsible for the design, development and delivery of customized learning and capability development programs. Lisa holds a B.A. In Psychology from Adelphi University and a M.A. in Industrial/Organizational Psychology from Hofstra University. Ms. Csencsits, as an Organizational Development Practitioner, leverages her experience working with large privately and publicly held companies, as well as her research and educational expertise to provide programs grounded in theory with practical solutions to enhance participant learning and professional development. </p>
 
                     </div>
                 </div>
@@ -1141,7 +1149,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Adjunct Instructor</p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p> Alvin specializes in Executive Development and Diversity Management. He is an Instructor at Cornell University, teaching Diversity & Inclusion. Alvin is a “storyteller” who provides a compelling first-hand account of the lessons he learned, and the experiences he endured during his career. He has a Bachelor of Science in Management from NYU Stern and a Marketing Management degree from Atlanta University Graduate School. He is also an American Management Association certified trainer.
+                        <p class="mb-0"> Alvin specializes in Executive Development and Diversity Management. He is an Instructor at Cornell University, teaching Diversity & Inclusion. Alvin is a “storyteller” who provides a compelling first-hand account of the lessons he learned, and the experiences he endured during his career. He has a Bachelor of Science in Management from NYU Stern and a Marketing Management degree from Atlanta University Graduate School. He is also an American Management Association certified trainer.
                         </p>
                     </div>
                 </div>
@@ -1173,7 +1181,7 @@ get_header(); ?>
                         <p class="mb-2 text-left font-semibold ">Associate Prof, Human Resource Studies</p>
                         <hr class="mt-3 mb-5 ">
 
-                        <p>Rebecca Kehoe is an Associate Professor of Human Resource Studies in the ILR School at Cornell University. She conducts research in the area of strategic human resource management, with an interest in better understanding how and when organizations achieve human resource-based competitive advantage. She holds a Ph.D., M.S., and B.S. from Cornell University. Prior to joining the faculty of the ILR School, she served on the faculty of Rutgers University. She has taught courses in Human Resource Management and Business Strategy. </p>
+                        <p class="mb-0">Rebecca Kehoe is an Associate Professor of Human Resource Studies in the ILR School at Cornell University. She conducts research in the area of strategic human resource management, with an interest in better understanding how and when organizations achieve human resource-based competitive advantage. She holds a Ph.D., M.S., and B.S. from Cornell University. Prior to joining the faculty of the ILR School, she served on the faculty of Rutgers University. She has taught courses in Human Resource Management and Business Strategy. </p>
                     </div>
                 </div>
             </div>
