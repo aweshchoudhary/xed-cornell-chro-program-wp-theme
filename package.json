@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "styles:watch": "npx tailwindcss -i ./styles/global.input.css -o ./styles/global.output.css --watch"
+    "styles:watch": "npx tailwindcss -i ./styles/global.input.css -o ./styles/global.output.css --watch --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
