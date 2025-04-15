@@ -13,7 +13,7 @@ get_header(); ?>
                 "class" => "image-cover",
             ]); ?>
         </div>
-        <div class="w-1/2 section-padding">
+        <div class="md:w-1/2 section-padding">
             <h2>Get Your Brochure</h2>
             <?= do_shortcode('[wpforms id="19"]'); ?>
         </div>
