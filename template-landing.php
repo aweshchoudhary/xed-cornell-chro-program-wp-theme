@@ -413,7 +413,7 @@ get_header(); ?>
                 <div class="w-full">
                     <h3 class="text-primary mb-5 text-center">Companies</h3>
                     <figure class="overflow-hidden companies-logo md:block hidden w-full !m-0">
-                        <? $image_id = 429 ?>
+                        <? $image_id = 476 ?>
                         <?= wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
                         ]); ?>
@@ -422,7 +422,7 @@ get_header(); ?>
                         </figcaption>
                     </figure>
                     <figure class="overflow-hidden companies-logo md:hidden w-full !m-0">
-                        <? $image_id = 431 ?>
+                        <? $image_id = 475 ?>
                         <?= wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
                         ]); ?>
