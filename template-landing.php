@@ -1161,7 +1161,7 @@ get_header(); ?>
                     </svg>
                     <span class="sr-only">Close modal</span>
                 </button>
-                <div class="flex md:flex-row flex-col px-6 py-10 gap-6">
+                <div class="flex md:flex-row flex-col px-6 py-10 md:gap-6 gap-3">
                     <div class="md:w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 124; ?>
