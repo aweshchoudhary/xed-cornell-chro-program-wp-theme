@@ -648,7 +648,7 @@ get_header(); ?>
         <div class="content-wrapper">
             <h2 class="heading text-center">Certificate</h2>
             <figure class="overflow-hidden md:w-[60%] mx-auto! w-full !m-0">
-                <? $image_id = 395 ?>
+                <? $image_id = 487 ?>
                 <?= wp_get_attachment_image($image_id, "large", false, [
                     "loading" => "lazy",
                     "class" => "image-contain",
