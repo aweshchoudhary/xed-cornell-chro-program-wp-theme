@@ -408,7 +408,7 @@ get_header(); ?>
                 </div>
                 <div class="w-full">
                     <h3 class="text-primary mb-5 text-center">Companies</h3>
-                    <figure class="overflow-hidden companies-logo md:block hidden w-full !m-0">
+                    <figure class="overflow-hidden companies-logo md:block hidden md:w-4/5 !m-0">
                         <? $image_id = 476 ?>
                         <?= wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
