@@ -13,7 +13,7 @@ get_header(); ?>
                 "class" => "image-cover",
             ]); ?>
         </div>
-        <div class="flex-1 section-padding">
+        <div class="w-1/2 section-padding">
             <h2>Get Your Brochure</h2>
             <?= do_shortcode('[wpforms id="19"]'); ?>
         </div>
@@ -31,12 +31,9 @@ get_header(); ?>
                         <svg class="text-primary md:size-10 size-8" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
                             <path d="M444.62-396.92v-70.77h70.76v70.77h-70.76Zm-160 0v-70.77h70.76v70.77h-70.76Zm320 0v-70.77h70.76v70.77h-70.76ZM444.62-240v-70.77h70.76V-240h-70.76Zm-160 0v-70.77h70.76V-240h-70.76Zm320 0v-70.77h70.76V-240h-70.76ZM140-100v-689.74h130.26v-74.87h54.1v74.87h312.82v-74.87H690v74.87h130V-100H140Zm50.26-50.26h579.48v-402.3H190.26v402.3Zm0-452.56h579.48v-136.67H190.26v136.67Zm0 0v-136.67 136.67Z" />
                         </svg>
-                        <!-- <svg class="text-primary mt-1 md:size-7 size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M11.23 14.154v-1.538h1.54v1.538zm-4 0v-1.538h1.54v1.538zm8 0v-1.538h1.54v1.538zm-4 3.846v-1.538h1.54V18zm-4 0v-1.538h1.54V18zm8 0v-1.538h1.54V18zM4 21V5h3.385V2.77h1.077V5h7.154V2.77h1V5H20v16zm1-1h14v-9.384H5zM5 9.615h14V6H5zm0 0V6z" />
-                        </svg> -->
                         <div>
                             <p class="text-lg mb-0">Starts On</p>
-                            <h4 class="lg:text-2xl mb-0">8 April 2025</h4>
+                            <h4 class="lg:text-2xl mb-0">April 2026</h4>
                         </div>
                     </div>
                     <div class="flex gap-3">
@@ -356,13 +353,12 @@ get_header(); ?>
     <section class="border-b ">
         <div class="max-w-4xl mx-auto">
             <h2 class="heading text-center">Cohort Statistics</h2>
-
             <div class="flex flex-wrap justify-between gap-x-5 lg:gap-y-14 gap-y-10">
                 <div class="text-center md:w-1/3">
                     <h3 class="text-primary mb-5">Work Experience</h3>
                     <figure class="overflow-hidden w-full !m-0">
                         <? $image_id = 388 ?>
-                        <?= wp_get_attachment_image($image_id, "large", false, [
+                        <?= wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-contain",
                         ]); ?>
@@ -449,7 +445,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-8" data-modal-toggle="modal-8">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 124; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -464,7 +460,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-1" data-modal-toggle="modal-1">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 123; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -479,7 +475,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-2" data-modal-toggle="modal-2">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 122; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -494,7 +490,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-3" data-modal-toggle="modal-3">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 121; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -509,7 +505,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-4" data-modal-toggle="modal-4">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 117; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -524,7 +520,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-5" data-modal-toggle="modal-5">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 120; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -539,7 +535,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-6" data-modal-toggle="modal-6">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 119; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -554,7 +550,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-9" data-modal-toggle="modal-9">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 118; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -569,7 +565,7 @@ get_header(); ?>
                             <div class="cursor-pointer group" data-modal-target="modal-7" data-modal-toggle="modal-7">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 116 ?>
-                                    <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                         "loading" => "lazy",
                                         "class" => "image-cover group-hover:scale-110 transition",
                                     )); ?>
@@ -911,7 +907,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 123; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -943,7 +939,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 122; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -975,7 +971,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 121; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1009,7 +1005,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 117; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1041,7 +1037,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 120; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1073,7 +1069,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 119; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1105,7 +1101,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 118; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1137,7 +1133,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 116; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
@@ -1169,7 +1165,7 @@ get_header(); ?>
                     <div class="w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 124; ?>
-                            <?php echo wp_get_attachment_image($image_id, "large", false, array(
+                            <?php echo wp_get_attachment_image($image_id, "medium", false, array(
                                 "loading" => "lazy",
                                 "class" => "image-cover group-hover:scale-110 transition",
                             )); ?>
