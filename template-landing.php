@@ -1161,8 +1161,8 @@ get_header(); ?>
                     </svg>
                     <span class="sr-only">Close modal</span>
                 </button>
-                <div class="flex px-6 py-10 gap-6">
-                    <div class="w-1/3">
+                <div class="flex md:flex-row flex-col px-6 py-10 gap-6">
+                    <div class="md:w-1/3">
                         <figure class="aspect-square w-full overflow-hidden select-none">
                             <?php $image_id = 124; ?>
                             <?php echo wp_get_attachment_image($image_id, "medium", false, array(
