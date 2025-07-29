@@ -33,7 +33,7 @@ get_header(); ?>
                         </svg>
                         <div>
                             <p class="text-lg mb-0">Starts On</p>
-                            <h4 class="lg:text-2xl mb-0">April 2026</h4>
+                            <h4 class="lg:text-2xl mb-0">13th Jan 2026</h4>
                         </div>
                     </div>
                     <div class="flex gap-3">
