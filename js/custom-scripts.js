@@ -70,9 +70,4 @@
         }
     };
 
-    // Initialize all components when DOM is ready
-    $(document).ready(function() {
-        // Add any initialization code here
-    });
-
 })(jQuery); 
