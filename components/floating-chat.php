@@ -1,5 +1,4 @@
 <div class="fixed bottom-0 right-0 md:p-4 p-2 w-fit max-h-screen z-50 flex flex-col items-end gap-3">
-
     <div id="floating-chat" data-show-chat="false" class="bg-white group data-[show-chat=false]:hidden data-[show-chat=true]:flex w-full rounded-xl overflow-hidden flex-col md:max-w-90 flex-1 md:max-h-[80vh] max-h-[90vh]  size-full border shadow-lg">
         <div class="w-full border-b px-4 py-2 flex justify-between items-center">
             <div class="flex items-center gap-2 justify-between w-full">
