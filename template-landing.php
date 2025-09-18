@@ -1184,6 +1184,7 @@ get_header(); ?>
         </div>
     </div>
 </article>
+<? include "components/floating-chat.php"; ?>
 
 <? get_footer(); ?>
 
