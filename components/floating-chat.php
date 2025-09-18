@@ -1,10 +1,10 @@
-<div class="fixed bottom-0 right-0 md:p-4 p-2 w-fit max-h-screen z-50 flex flex-col items-end gap-3">
+<div class="fixed bottom-0 right-0 md:p-4 p-2 w-fit max-w-lg max-h-screen z-50 flex flex-col items-end gap-3">
     <div id="floating-chat" data-show-chat="false" class="bg-white group data-[show-chat=false]:hidden data-[show-chat=true]:flex w-full rounded-xl overflow-hidden flex-col md:max-w-90 flex-1 md:max-h-[80vh] max-h-[90vh]  size-full border shadow-lg">
         <div class="w-full border-b px-4 py-2 flex justify-between items-center">
             <div class="flex items-center gap-2 justify-between w-full">
                 <div class="flex items-center gap-2">
                 <figure class="size-10 m-0!">
-                    <? $image_id = 598 ?>
+                    <? $image_id = 685 ?>
                     <?= wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "eager",
                         "class" => "image-cover bg-gray-100 border-2 border-primary rounded-full overflow-hidden",
@@ -62,9 +62,9 @@
         </div>
     </div>
 
-    <button data-tooltip-target="tooltip-default" type="button" onclick="toggleChat()" class="md:size-20 size-15 relative">
+    <button data-tooltip-target="tooltip-default" type="button" onclick="toggleChat()" class="md:size-20 size-14 relative">
         <figure>
-            <? $image_id = 598 ?>
+            <? $image_id = 685 ?>
             <?= wp_get_attachment_image($image_id, "large", false, [
                 "loading" => "eager",
                 "class" => "image-cover md:border-4 border-2 border-primary rounded-full bg-gray-100 overflow-hidden",
@@ -81,7 +81,7 @@
     </div>
 </div>
 
-<script type="module" src="<?php echo get_template_directory_uri() ?>/eleven-labs/dist/assets/index-Sd64Z2vu.js"></script>
+<script type="module" src="<?php echo get_template_directory_uri() ?>/eleven-labs/dist/assets/index-DSNZpLU0.js"></script>
 
 
 <script>
@@ -110,11 +110,6 @@
         if (floatingChat.dataset.showChat === 'false') {
             floatingChat.dataset.showChat = 'true';
             tooltip.style.display = 'none';
-
-            if(!window.textConversation){
-                window.isInitialMessage = true;
-                window.startTextConversation();
-            }
         } else {
             floatingChat.dataset.showChat = 'false';
             tooltip.style.display = 'block';
@@ -152,7 +147,15 @@
         renderUserMessage(message);
         messageInput.value = '';
         scrollToBottom();
-        await window.textConversation.sendUserMessage(message);
+        
+        if(!window.textConversation){
+                window.isInitialMessage = true;
+               await window.startTextConversation();
+                await window.textConversation.sendUserMessage(message);
+        } else {
+            
+            await window.textConversation.sendUserMessage(message);
+        }
     }
 
     const renderUserMessage = (message) => {
