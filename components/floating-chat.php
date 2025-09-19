@@ -4,7 +4,7 @@
             <div class="flex items-center gap-2 justify-between w-full">
                 <div class="flex items-center gap-2">
                 <figure class="size-10 m-0!">
-                    <? $image_id = 685 ?>
+                    <? $image_id = 598 ?>
                     <?= wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "eager",
                         "class" => "image-cover bg-gray-100 border-2 border-primary rounded-full overflow-hidden",
@@ -25,9 +25,7 @@
         </div>
         <div class="px-4 flex flex-col gap-2 overflow-y-auto flex-1 justify-between">
             <div class="space-y-6 flex-1 overflow-y-auto" id="scroll-container">
-                <div class="text-center pt-4">
-                    <p class="text-sm text-gray-500">Today <?= date('h:i A') ?></p>
-                </div>
+                
                 <div id="messages" class="space-y-6 mt-5">
                     <div class="flex gap-2 md:max-w-[90%] max-w-[80%]">
                         <div class="bg-gray-100 rounded-xl w-fit rounded-tl-none p-2 flex-1">
@@ -64,7 +62,7 @@
 
     <button data-tooltip-target="tooltip-default" type="button" onclick="toggleChat()" class="md:size-20 size-14 relative">
         <figure>
-            <? $image_id = 685 ?>
+            <? $image_id = 598 ?>
             <?= wp_get_attachment_image($image_id, "large", false, [
                 "loading" => "eager",
                 "class" => "image-cover md:border-4 border-2 border-primary rounded-full bg-gray-100 overflow-hidden",
@@ -81,7 +79,7 @@
     </div>
 </div>
 
-<script type="module" src="<?php echo get_template_directory_uri() ?>/eleven-labs/dist/assets/index-DSNZpLU0.js"></script>
+<script type="module" src="<?php echo get_template_directory_uri() ?>/eleven-labs/dist/assets/index-Sd64Z2vu.js"></script>
 
 
 <script>
