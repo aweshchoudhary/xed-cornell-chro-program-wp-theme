@@ -33,7 +33,7 @@ get_header(); ?>
                         </svg>
                         <div>
                             <p class="text-lg mb-0">Starts On</p>
-                            <h4 class="lg:text-2xl mb-0">03 Feb 2026</h4>
+                            <h4 class="lg:text-2xl mb-0">17 March 2026</h4>
                         </div>
                     </div>
                     <div class="flex gap-3">
@@ -75,13 +75,11 @@ get_header(); ?>
                 </div>
                 <div class="flex flex-col items-center">
                     <div class="md:size-22 size-18 flex items-center border-gray-200 justify-center rounded-full md:border-2 border">
-                        <svg class="md:size-12 size-10 text-primary" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
-                            <g>
-                                <path fill-rule="evenodd" d="M113.968 185.179c27.515 0 49.82 22.305 49.82 49.82 0 27.514-22.305 49.82-49.82 49.82s-49.82-22.305-49.82-49.82 22.305-49.82 49.82-49.82zM438.649 496H114.976c-22.892 0-41.625-18.73-41.625-41.625s18.732-41.625 41.625-41.625h323.673c-7.833 9.364-13.096 20.943-14.669 33.625H142.262a8 8 0 0 0 0 16h281.717c1.574 12.682 6.836 24.261 14.67 33.625zM341 131.992V40.616c0-10.042-8.19-18.232-18.232-18.232H189.232c-10.042 0-18.232 8.19-18.232 18.232v91.376c0 10.042 8.19 18.232 18.232 18.232h41.717L256 198.696l25.051-48.473h41.717c10.042.001 18.232-8.189 18.232-18.231zm-38.961-86.525a8 8 0 0 1 0 16h-92.078a8 8 0 0 1 0-16zm0 65.674a8 8 0 0 1 0 16h-92.077a8 8 0 0 1 0-16zm0-32.837a8 8 0 0 1 0 16h-92.077a8 8 0 0 1 0-16zM16 125.608V34.232C16 24.19 24.19 16 34.232 16h131.241c-6.452 6.229-10.472 14.962-10.472 24.616v5.687a8 8 0 0 0-7.962-7.22H54.961a8 8 0 0 0 0 16h92.078a8 8 0 0 0 7.962-7.22v31.281a8 8 0 0 0-7.962-7.223H54.961a8 8 0 0 0 0 16h92.078a8.001 8.001 0 0 0 7.962-7.223v31.284a8 8 0 0 0-7.962-7.223H54.961a8 8 0 0 0 0 16h92.078a8.001 8.001 0 0 0 7.962-7.223v18.458c0 4.163.748 8.154 2.116 11.848h-4.776v37.139l-35.677-37.139H34.232C24.19 143.84 16 135.65 16 125.608zm480 0V34.232C496 24.19 487.81 16 477.768 16H346.527c6.452 6.229 10.472 14.962 10.472 24.616v5.693a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v31.291a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v31.29a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v18.461c0 4.163-.748 8.154-2.116 11.848h4.777v37.139l35.677-37.139h82.431C487.81 143.84 496 135.65 496 125.608zM255.999 215.18c-27.514 0-49.82 22.305-49.82 49.82 0 27.514 22.305 49.819 49.82 49.819 27.514 0 49.819-22.305 49.819-49.819.001-27.515-22.304-49.82-49.819-49.82zm-94.894 181.572C172.714 355.257 210.8 324.82 256 324.82c45.201 0 83.287 30.437 94.895 71.932zm236.929-211.573c27.514 0 49.82 22.305 49.82 49.82 0 27.514-22.305 49.82-49.82 49.82-27.514 0-49.82-22.305-49.82-49.82s22.305-49.82 49.82-49.82zM363.13 382.75h121.025c6.494 0 11.234-6 9.728-12.318-10.332-43.364-49.323-75.614-95.85-75.614-30.34 0-57.473 13.716-75.547 35.282 18.224 13.001 32.534 31.235 40.644 52.65zm-335.286.001H148.87c8.109-21.415 22.42-39.649 40.643-52.65-18.074-21.566-45.207-35.282-75.546-35.282-46.528 0-85.52 32.25-95.851 75.615a9.967 9.967 0 0 0 9.728 12.317z" clip-rule="evenodd" fill="currentColor" opacity="1" data-original="currentColor" class=""></path>
-                            </g>
-                        </svg>
+
+                        <?php echo wp_get_attachment_image(660, "large", false, array("class" => "md:size-12 size-10 text-primary")) ?>
                     </div>
-                    <h4 class="mt-2 font-medium 2xl:text-xl mb-0 lg:text-lg text-base text-center">Small cohort for impactful learning</h4>
+                    <h4 class="mt-2 font-medium 2xl:text-xl mb-0 lg:text-lg text-base text-center">2 day in-person Dubai industry immersion (optional)
+                    </h4>
                 </div>
                 <div class="flex flex-col items-center">
                     <div class="md:size-22 size-18 flex items-center border-gray-200 justify-center rounded-full md:border-2 border">
@@ -127,12 +125,22 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <h4 class="mt-2 font-medium 2xl:text-xl mb-0 lg:text-lg text-base text-center">Learn from Cornell faculty and Industry Experts</h4>
+                    <h4 class="mt-2 font-medium 2xl:text-xl mb-0 lg:text-lg text-base text-center">Learn from world-class Cornell faculty</h4>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="md:size-22 size-18 flex items-center border-gray-200 justify-center rounded-full md:border-2 border">
+                        <svg class="md:size-12 size-10 text-primary" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <path fill-rule="evenodd" d="M113.968 185.179c27.515 0 49.82 22.305 49.82 49.82 0 27.514-22.305 49.82-49.82 49.82s-49.82-22.305-49.82-49.82 22.305-49.82 49.82-49.82zM438.649 496H114.976c-22.892 0-41.625-18.73-41.625-41.625s18.732-41.625 41.625-41.625h323.673c-7.833 9.364-13.096 20.943-14.669 33.625H142.262a8 8 0 0 0 0 16h281.717c1.574 12.682 6.836 24.261 14.67 33.625zM341 131.992V40.616c0-10.042-8.19-18.232-18.232-18.232H189.232c-10.042 0-18.232 8.19-18.232 18.232v91.376c0 10.042 8.19 18.232 18.232 18.232h41.717L256 198.696l25.051-48.473h41.717c10.042.001 18.232-8.189 18.232-18.231zm-38.961-86.525a8 8 0 0 1 0 16h-92.078a8 8 0 0 1 0-16zm0 65.674a8 8 0 0 1 0 16h-92.077a8 8 0 0 1 0-16zm0-32.837a8 8 0 0 1 0 16h-92.077a8 8 0 0 1 0-16zM16 125.608V34.232C16 24.19 24.19 16 34.232 16h131.241c-6.452 6.229-10.472 14.962-10.472 24.616v5.687a8 8 0 0 0-7.962-7.22H54.961a8 8 0 0 0 0 16h92.078a8 8 0 0 0 7.962-7.22v31.281a8 8 0 0 0-7.962-7.223H54.961a8 8 0 0 0 0 16h92.078a8.001 8.001 0 0 0 7.962-7.223v31.284a8 8 0 0 0-7.962-7.223H54.961a8 8 0 0 0 0 16h92.078a8.001 8.001 0 0 0 7.962-7.223v18.458c0 4.163.748 8.154 2.116 11.848h-4.776v37.139l-35.677-37.139H34.232C24.19 143.84 16 135.65 16 125.608zm480 0V34.232C496 24.19 487.81 16 477.768 16H346.527c6.452 6.229 10.472 14.962 10.472 24.616v5.693a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v31.291a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v31.29a8 8 0 0 1 7.962-7.226h92.078a8 8 0 0 1 0 16h-92.078a8 8 0 0 1-7.962-7.226v18.461c0 4.163-.748 8.154-2.116 11.848h4.777v37.139l35.677-37.139h82.431C487.81 143.84 496 135.65 496 125.608zM255.999 215.18c-27.514 0-49.82 22.305-49.82 49.82 0 27.514 22.305 49.819 49.82 49.819 27.514 0 49.819-22.305 49.819-49.819.001-27.515-22.304-49.82-49.819-49.82zm-94.894 181.572C172.714 355.257 210.8 324.82 256 324.82c45.201 0 83.287 30.437 94.895 71.932zm236.929-211.573c27.514 0 49.82 22.305 49.82 49.82 0 27.514-22.305 49.82-49.82 49.82-27.514 0-49.82-22.305-49.82-49.82s22.305-49.82 49.82-49.82zM363.13 382.75h121.025c6.494 0 11.234-6 9.728-12.318-10.332-43.364-49.323-75.614-95.85-75.614-30.34 0-57.473 13.716-75.547 35.282 18.224 13.001 32.534 31.235 40.644 52.65zm-335.286.001H148.87c8.109-21.415 22.42-39.649 40.643-52.65-18.074-21.566-45.207-35.282-75.546-35.282-46.528 0-85.52 32.25-95.851 75.615a9.967 9.967 0 0 0 9.728 12.317z" clip-rule="evenodd" fill="currentColor" opacity="1" data-original="currentColor" class=""></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h4 class="mt-2 font-medium 2xl:text-xl mb-0 lg:text-lg text-base text-center">Small cohort for impactful learning</h4>
                 </div>
             </div>
         </div>
     </section>
-    <section class="border-b ">
+    <section>
         <div>
             <h2 class="heading text-center">Curriculum</h2>
 
@@ -348,6 +356,23 @@ get_header(); ?>
                 </div>
             </div>
 
+        </div>
+    </section>
+    <section class="bg-gray-100 border-b">
+        <div class="section md:max-w-4xl mx-auto" style="margin-top: 0 !important;margin-bottom: 0 !important;">
+            <div>
+
+                <h3>Dubai Immersion (optional)</h3>
+                <h4 class="!text-black">Future-Ready Leadership in an Evolving World</h4>
+                <p>An exclusive two-day, in-person immersion in Dubai brings the Cornell CHRO experience to life. Through live simulations, collaborative exercises, and market-relevant discussions, participants will explore how global trends, technological shifts, and new business models are reshaping leadership and strategy.</p>
+                <h5 class="!text-black">Highlights</h5>
+                <ul>
+                    <li>Examine the emerging economic, technological, and societal forces reshaping industries worldwide</li>
+                    <li>Build strategic foresight to anticipate disruption and convert uncertainty into opportunity</li>
+                    <li>Experience the pressure and pace of leadership through high-intensity, real-world simulations</li>
+                    <li>Engage with senior peers from diverse sectors to exchange ideas, challenge assumptions, and co-create future-ready strategies</li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="border-b ">
@@ -866,7 +891,7 @@ get_header(); ?>
 
                 <li> Have at least a Bachelor's degree</li>
 
-                <li> Country of residence at the time of enrolling must be Latin America, South Asia, Middle East, Africa, Far East</li>
+                <li> Country of residence at the time of enrolling must be Latin America, South Asia, Europe, Middle East, Africa, Far East</li>
 
             </ul>
 
