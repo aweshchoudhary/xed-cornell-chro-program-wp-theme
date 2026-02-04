@@ -482,21 +482,6 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="cursor-pointer group" data-modal-target="modal-1" data-modal-toggle="modal-1">
-                                <figure class="aspect-square size-full overflow-hidden select-none">
-                                    <?php $image_id = 123; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
-                                        "loading" => "lazy",
-                                        "class" => "image-cover group-hover:scale-110 transition",
-                                    )); ?>
-                                    <figcaption class="sr-only"><?php echo wp_kses_post(wp_get_attachment_caption($image_id)); ?></figcaption>
-                                </figure>
-                                <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">Bradford Bell</p>
-                                <p class="mb-2 text-left text-sm line-clamp-2">William J. Conaty Professor of Strategic Human Resources</p>
-                                <p class="underline text-sm">More Info</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
                             <div class="cursor-pointer group" data-modal-target="modal-2" data-modal-toggle="modal-2">
                                 <figure class="aspect-square size-full overflow-hidden select-none">
                                     <?php $image_id = 122; ?>
@@ -508,21 +493,6 @@ get_header(); ?>
                                 </figure>
                                 <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">John Hausknecht</p>
                                 <p class="mb-2 text-left text-sm line-clamp-2">Professor, Human Resource Studies</p>
-                                <p class="underline text-sm">More Info</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cursor-pointer group" data-modal-target="modal-3" data-modal-toggle="modal-3">
-                                <figure class="aspect-square size-full overflow-hidden select-none">
-                                    <?php $image_id = 121; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
-                                        "loading" => "lazy",
-                                        "class" => "image-cover group-hover:scale-110 transition",
-                                    )); ?>
-                                    <figcaption class="sr-only"><?php echo wp_kses_post(wp_get_attachment_caption($image_id)); ?></figcaption>
-                                </figure>
-                                <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">M. Diane Burton</p>
-                                <p class="mb-2 text-left text-sm line-clamp-2">Joseph R. Rich ’80 Professor, Human Resource Studies and Academic Director, Institute for Compensation Studies </p>
                                 <p class="underline text-sm">More Info</p>
                             </div>
                         </div>
@@ -568,36 +538,6 @@ get_header(); ?>
                                 </figure>
                                 <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">Ben Rissing</p>
                                 <p class="mb-2 text-left text-sm line-clamp-2">Associate Professor</p>
-                                <p class="underline text-sm">More Info</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cursor-pointer group" data-modal-target="modal-9" data-modal-toggle="modal-9">
-                                <figure class="aspect-square size-full overflow-hidden select-none">
-                                    <?php $image_id = 118; ?>
-                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
-                                        "loading" => "lazy",
-                                        "class" => "image-cover group-hover:scale-110 transition",
-                                    )); ?>
-                                    <figcaption class="sr-only"><?php echo wp_kses_post(wp_get_attachment_caption($image_id)); ?></figcaption>
-                                </figure>
-                                <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">Lisa Csencsits</p>
-                                <p class="mb-2 text-left text-sm line-clamp-2">Associate Director</p>
-                                <p class="underline text-sm">More Info</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cursor-pointer group" data-modal-target="modal-7" data-modal-toggle="modal-7">
-                                <figure class="aspect-square size-full overflow-hidden select-none">
-                                    <?php $image_id = 116 ?>
-                                    <?php echo wp_get_attachment_image($image_id, "medium", false, array(
-                                        "loading" => "lazy",
-                                        "class" => "image-cover group-hover:scale-110 transition",
-                                    )); ?>
-                                    <figcaption class="sr-only"><?php echo wp_kses_post(wp_get_attachment_caption($image_id)); ?></figcaption>
-                                </figure>
-                                <p class="text-primary md:text-xl text-lg font-semibold mt-3 mb-0">Alwin Smith</p>
-                                <p class="mb-2 text-left text-sm line-clamp-2">Adjunct Instructor</p>
                                 <p class="underline text-sm">More Info</p>
                             </div>
                         </div>
